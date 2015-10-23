@@ -1,3 +1,8 @@
+/*
+作者：杨洪超
+邮箱：yanghongchao_it@163.com
+*/
+
 #include <QApplication>
 #include <QTextCodec>
 #include <QAbstractItemView>
