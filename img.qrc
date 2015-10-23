@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="close_normal">img/topRight/close_normal.png</file>
+        <file alias="close_hover">img/topRight/close_hover.png</file>
+        <file alias="close_press">img/topRight/close_press.png</file>
+        <file alias="search">img/searchAction.png</file>
+        <file alias="searchEdit">img/searchEdit.png</file>
+        <file alias="read">img/read.png</file>
+        <file alias="no_read">img/no_read.png</file>
+        <file alias="sys_gray">img/sys_gray.png</file>
+        <file alias="sys_white">img/sys_white.png</file>
+        <file alias="mainWidget">img/mainWidget.png</file>
+        <file alias="title">img/titleWidget.png</file>
+        <file alias="msg_tray">img/msg_tray.png</file>
+    </qresource>
+</RCC>

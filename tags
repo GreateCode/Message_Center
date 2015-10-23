@@ -1,0 +1,346 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	msgwidget.h	/^    bool        A;      \/\/\/ OA系统$/;"	m	struct:_CMD
+ACTIONEXPAND_H	actionexpand.h	2;"	d
+ADAEMON_H	adaemon.h	2;"	d
+AR	build/Makefile	/^AR            = ar cqs$/;"	m
+ActionExpand	actionexpand.cpp	/^ActionExpand::ActionExpand(QObject *parent) :$/;"	f	class:ActionExpand
+ActionExpand	actionexpand.h	/^class ActionExpand : public QAction$/;"	c
+Adaemon	adaemon.cpp	/^Adaemon::Adaemon(QWidget *parent) :$/;"	f	class:Adaemon
+Adaemon	adaemon.h	/^class Adaemon : public QWidget$/;"	c
+B	msgwidget.h	/^    bool        B;      \/\/\/ 待办系统$/;"	m	struct:_CMD
+BACKUPINFO_H	backupinfo.h	2;"	d
+BTNMODEL_H	btnmodel.h	2;"	d
+BUTTONLABEL_H	buttonlabel.h	2;"	d
+BackupInfo	backupinfo.cpp	/^BackupInfo::BackupInfo()$/;"	f	class:BackupInfo
+BackupInfo	backupinfo.h	/^class BackupInfo$/;"	c
+BtnModel	btnmodel.cpp	/^BtnModel::BtnModel(QWidget *parent) :$/;"	f	class:BtnModel
+BtnModel	btnmodel.h	/^class BtnModel : public QPushButton$/;"	c
+ButtonLabel	buttonlabel.cpp	/^ButtonLabel::ButtonLabel(QWidget *parent) :$/;"	f	class:ButtonLabel
+ButtonLabel	buttonlabel.h	/^class ButtonLabel : public QLabel$/;"	c
+ButtonStatus	btnmodel.h	/^    enum ButtonStatus {NORMAL, HOVER, PRESS};   \/\/ 枚举按钮的几种状态$/;"	g	class:BtnModel
+C	msgwidget.h	/^    bool        C;      \/\/\/ 监控系统$/;"	m	struct:_CMD
+CC	build/Makefile	/^CC            = gcc$/;"	m
+CFLAGS	build/Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT -fPIE $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	build/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	build/Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	build/Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	build/Makefile	/^COPY_DIR      = cp -f -R$/;"	m
+COPY_FILE	build/Makefile	/^COPY_FILE     = cp -f$/;"	m
+CXX	build/Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	build/Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT -fPIE $(DEFINES)$/;"	m
+Cmd	msgwidget.h	/^} Cmd;$/;"	t	typeref:struct:_CMD
+D	msgwidget.h	/^    bool        D;      \/\/\/ 运监系统$/;"	m	struct:_CMD
+DEFINES	build/Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_UITOOLS_LIB -DQT_GUI_LIB -DQT_CORE_LIB$/;"	m
+DEL_DIR	build/Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	build/Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	build/Makefile	/^DESTDIR       = #avoid trailing-slash linebreak$/;"	m
+DIST	build/Makefile	/^DIST          = \/opt\/qt532\/5.3\/gcc\/mkspecs\/features\/spec_pre.prf \\$/;"	m
+E	msgwidget.h	/^    bool        E;      \/\/\/ 其他$/;"	m	struct:_CMD
+GETMSG_H	getmsg.h	2;"	d
+GetMsg	getmsg.cpp	/^GetMsg::GetMsg()$/;"	f	class:GetMsg
+GetMsg	getmsg.h	/^class GetMsg$/;"	c
+HOVER	btnmodel.h	/^    enum ButtonStatus {NORMAL, HOVER, PRESS};   \/\/ 枚举按钮的几种状态$/;"	e	enum:BtnModel::ButtonStatus
+HTTPMSG_H	httpmsg.h	2;"	d
+INCPATH	build/Makefile	/^INCPATH       = -I\/opt\/qt532\/5.3\/gcc\/mkspecs\/linux-g++ -I..\/..\/MessageCenter -I\/opt\/qt532\/5.3\/gcc\/include -I\/opt\/qt532\/5.3\/gcc\/include\/QtWidgets -I\/opt\/qt532\/5.3\/gcc\/include\/QtNetwork -I\/opt\/qt532\/5.3\/gcc\/include\/QtXml -I\/opt\/qt532\/5.3\/gcc\/include\/QtUiTools -I\/opt\/qt532\/5.3\/gcc\/include\/QtGui -I\/opt\/qt532\/5.3\/gcc\/include\/QtCore -I. -I. -I.$/;"	m
+INSTALL_DIR	build/Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	build/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	build/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LFLAGS	build/Makefile	/^LFLAGS        = -Wl,-O1 -Wl,-rpath,\/opt\/qt532\/5.3\/gcc -Wl,-rpath,\/opt\/qt532\/5.3\/gcc\/lib$/;"	m
+LIBS	build/Makefile	/^LIBS          = $(SUBLIBS) -L\/opt\/qt532\/5.3\/gcc\/lib -lQt5Network -lQt5Xml -lQt5UiTools -lQt5Widgets -lQt5Gui -lQt5Core -lGL -lpthread $/;"	m
+LINK	build/Makefile	/^LINK          = g++$/;"	m
+MAINWIDGET_H	mainwidget.h	2;"	d
+MAKEFILE	build/Makefile	/^MAKEFILE      = Makefile$/;"	m
+MESSAGECENTERWIDGET_H	messagecenterwidget.h	2;"	d
+MKDIR	build/Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	build/Makefile	/^MOVE          = mv -f$/;"	m
+MSGWIDGET_H	msgwidget.h	2;"	d
+MessageCenterWidget	messagecenterwidget.cpp	/^MessageCenterWidget::MessageCenterWidget(QPoint pos, QWidget *parent)$/;"	f	class:MessageCenterWidget
+MessageCenterWidget	messagecenterwidget.h	/^class MessageCenterWidget : public QWidget$/;"	c
+MsgNode	msgwidget.h	/^} MsgNode;$/;"	t	typeref:struct:_MsgNode
+MsgWidget	msgwidget.cpp	/^MsgWidget::MsgWidget(QWidget *parent) :$/;"	f	class:MsgWidget
+MsgWidget	msgwidget.h	/^class MsgWidget : public QWidget$/;"	c
+NORMAL	btnmodel.h	/^    enum ButtonStatus {NORMAL, HOVER, PRESS};   \/\/ 枚举按钮的几种状态$/;"	e	enum:BtnModel::ButtonStatus
+OBJECTS	build/Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS_DIR	build/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+PAGEWIDGET_H	pagewidget.h	2;"	d
+PRESS	btnmodel.h	/^    enum ButtonStatus {NORMAL, HOVER, PRESS};   \/\/ 枚举按钮的几种状态$/;"	e	enum:BtnModel::ButtonStatus
+PageWidget	pagewidget.cpp	/^PageWidget::PageWidget(QWidget *parent)$/;"	f	class:PageWidget
+PageWidget	pagewidget.h	/^class PageWidget : public QWidget$/;"	c
+QMAKE	build/Makefile	/^QMAKE         = \/opt\/qt532\/5.3\/gcc\/bin\/qmake$/;"	m
+QMAKE_TARGET	build/Makefile	/^QMAKE_TARGET  = MessageCenter$/;"	m
+RANLIB	build/Makefile	/^RANLIB        = $/;"	m
+READCONF_H	readconf.h	2;"	d
+ReadConf	readconf.cpp	/^ReadConf::ReadConf(const QString &file) :$/;"	f	class:ReadConf
+ReadConf	readconf.h	/^class ReadConf$/;"	c
+SED	build/Makefile	/^SED           = sed$/;"	m
+SHADOWWIDGET_H	shadowwidget.h	2;"	d
+SOURCES	build/Makefile	/^SOURCES       = ..\/main.cpp \\$/;"	m
+STRIP	build/Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	build/Makefile	/^SYMLINK       = ln -f -s$/;"	m
+ShadowWidget	shadowwidget.cpp	/^ShadowWidget::ShadowWidget(QWidget *parent) :$/;"	f	class:ShadowWidget
+ShadowWidget	shadowwidget.h	/^class ShadowWidget : public QWidget$/;"	c
+TAR	build/Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	build/Makefile	/^TARGET        = MessageCenter$/;"	m
+TIPWIDGET_H	tipwidget.h	2;"	d
+TITLEWIDGET_H	titlewidget.h	2;"	d
+TitleWidget	titlewidget.cpp	/^TitleWidget::TitleWidget(QWidget *parent) : QWidget(parent)$/;"	f	class:TitleWidget
+TitleWidget	titlewidget.h	/^class TitleWidget : public QWidget$/;"	c
+Ui	mainwidget.h	/^namespace Ui {$/;"	n
+Ui	tipwidget.h	/^namespace Ui {$/;"	n
+_CMD	msgwidget.h	/^typedef struct _CMD$/;"	s
+_MsgNode	msgwidget.h	/^typedef struct _MsgNode$/;"	s
+addMsg	msgwidget.cpp	/^void MsgWidget::addMsg(const MsgNode& msgNode, const int row)$/;"	f	class:MsgWidget
+all	msgwidget.h	/^    bool        all;    \/\/\/ 全部$/;"	m	struct:_CMD
+backupMsg	adaemon.cpp	/^void Adaemon::backupMsg()$/;"	f	class:Adaemon
+closeProgram	adaemon.cpp	/^void Adaemon::closeProgram()$/;"	f	class:Adaemon
+closeTip	adaemon.cpp	/^void Adaemon::closeTip()$/;"	f	class:Adaemon
+compareTime	getmsg.cpp	/^bool GetMsg::compareTime()$/;"	f	class:GetMsg
+createNode	backupinfo.cpp	/^QDomElement BackupInfo::createNode(const MsgNode *pNode)$/;"	f	class:BackupInfo
+curTime	msgwidget.h	/^    QString     curTime;    \/\/\/ 查看时间$/;"	m	struct:_MsgNode
+enterEvent	btnmodel.cpp	/^void BtnModel::enterEvent(QEvent *)$/;"	f	class:BtnModel
+enterEvent	buttonlabel.cpp	/^void ButtonLabel::enterEvent(QEvent *)$/;"	f	class:ButtonLabel
+errSlot	httpmsg.cpp	/^void httpMsg::errSlot(QNetworkReply::NetworkError code)$/;"	f	class:httpMsg
+event	actionexpand.cpp	/^bool ActionExpand::event(QEvent *e)$/;"	f	class:ActionExpand
+fillBackground	messagecenterwidget.cpp	/^void MessageCenterWidget::fillBackground(QWidget *w, QColor color)$/;"	f	class:MessageCenterWidget
+fillBackground	pagewidget.cpp	/^void PageWidget::fillBackground(QWidget *w, QColor color)$/;"	f	class:PageWidget
+flushServer	adaemon.cpp	/^void Adaemon::flushServer()$/;"	f	class:Adaemon
+g_bakList	backupinfo.cpp	/^QList<MsgNode*>         g_bakList;  \/\/ 存储备份文件中的消息信息$/;"	v
+g_conf	mainwidget.cpp	/^QString  g_conf             =   "\/.config\/isoft\/news.ini";$/;"	v
+g_conf	messagecenterwidget.cpp	/^QString  g_conf             =   "\/.config\/isoft\/news.ini";$/;"	v
+g_msgList	msgwidget.cpp	/^QList<MsgNode*> g_msgList;$/;"	v
+getAllMsgList	mainwidget.cpp	/^void mainWidget::getAllMsgList()$/;"	f	class:mainWidget
+getAllMsgList	messagecenterwidget.cpp	/^void MessageCenterWidget::getAllMsgList()$/;"	f	class:MessageCenterWidget
+getBakFile	readconf.cpp	/^QString ReadConf::getBakFile()$/;"	f	class:ReadConf
+getCurPageNum	pagewidget.cpp	/^int PageWidget::getCurPageNum()$/;"	f	class:PageWidget
+getIconPath	btnmodel.cpp	/^void BtnModel::getIconPath(const QString& iconPath)$/;"	f	class:BtnModel
+getLoopTime	readconf.cpp	/^int ReadConf::getLoopTime()$/;"	f	class:ReadConf
+getMsg	getmsg.cpp	/^void GetMsg::getMsg()$/;"	f	class:GetMsg
+getMsgCnt	mainwidget.cpp	/^int mainWidget::getMsgCnt()$/;"	f	class:mainWidget
+getMsgCnt	messagecenterwidget.cpp	/^int MessageCenterWidget::getMsgCnt()$/;"	f	class:MessageCenterWidget
+getMsgCnt	msgwidget.cpp	/^int MsgWidget::getMsgCnt()$/;"	f	class:MsgWidget
+getNewsFile	readconf.cpp	/^QString ReadConf::getNewsFile()$/;"	f	class:ReadConf
+getPageWidget	msgwidget.cpp	/^PageWidget *MsgWidget::getPageWidget()$/;"	f	class:MsgWidget
+getTableView	msgwidget.cpp	/^QTableView *MsgWidget::getTableView()$/;"	f	class:MsgWidget
+getUrl	readconf.cpp	/^QString ReadConf::getUrl()$/;"	f	class:ReadConf
+gs_msgList	getmsg.cpp	/^static QList<MsgNode*> gs_msgList;$/;"	v	file:
+gs_newsFile	mainwidget.cpp	/^static QString  gs_newsFile =   "\/tmp\/news.xml";$/;"	v	file:
+gs_newsFile	messagecenterwidget.cpp	/^static QString  gs_newsFile =   "\/tmp\/news.xml";$/;"	v	file:
+gs_rowHeight	msgwidget.cpp	/^static int gs_rowHeight = 35;$/;"	v	file:
+gs_url	mainwidget.cpp	/^static QString  gs_url      =   "https:\/\/10.238.208.133\/ovd\/client\/news.php";$/;"	v	file:
+gs_url	messagecenterwidget.cpp	/^static QString  gs_url      =   "https:\/\/10.238.208.133\/ovd\/client\/news.php";$/;"	v	file:
+hideClose	titlewidget.cpp	/^void TitleWidget::hideClose()$/;"	f	class:TitleWidget
+hideWidget	mainwidget.cpp	/^void mainWidget::hideWidget()$/;"	f	class:mainWidget
+hideWidget	messagecenterwidget.cpp	/^void MessageCenterWidget::hideWidget()$/;"	f	class:MessageCenterWidget
+hoveredAcvtion	messagecenterwidget.cpp	/^void MessageCenterWidget::hoveredAcvtion(QAction *a)$/;"	f	class:MessageCenterWidget
+httpFinished	httpmsg.cpp	/^void httpMsg::httpFinished()$/;"	f	class:httpMsg
+httpMsg	httpmsg.cpp	/^httpMsg::httpMsg(QObject *parent) :$/;"	f	class:httpMsg
+httpMsg	httpmsg.h	/^class httpMsg : public QObject$/;"	c
+httpReadyRead	httpmsg.cpp	/^void httpMsg::httpReadyRead()$/;"	f	class:httpMsg
+id	msgwidget.h	/^    int         id;$/;"	m	struct:_MsgNode
+initConn	adaemon.cpp	/^void Adaemon::initConn()$/;"	f	class:Adaemon
+initConn	httpmsg.cpp	/^void httpMsg::initConn()$/;"	f	class:httpMsg
+initConn	mainwidget.cpp	/^void mainWidget::initConn()$/;"	f	class:mainWidget
+initConn	messagecenterwidget.cpp	/^void MessageCenterWidget::initConn()$/;"	f	class:MessageCenterWidget
+initConn	msgwidget.cpp	/^void MsgWidget::initConn()$/;"	f	class:MsgWidget
+initConn	pagewidget.cpp	/^void PageWidget::initConn()$/;"	f	class:PageWidget
+initConn	tipwidget.cpp	/^void tipWidget::initConn()$/;"	f	class:tipWidget
+initConnects	titlewidget.cpp	/^void TitleWidget::initConnects()$/;"	f	class:TitleWidget
+initUI	adaemon.cpp	/^void Adaemon::initUI()$/;"	f	class:Adaemon
+initUI	mainwidget.cpp	/^void mainWidget::initUI()$/;"	f	class:mainWidget
+initUI	messagecenterwidget.cpp	/^void MessageCenterWidget::initUI()$/;"	f	class:MessageCenterWidget
+initUI	pagewidget.cpp	/^void PageWidget::initUI()$/;"	f	class:PageWidget
+initUI	tipwidget.cpp	/^void tipWidget::initUI()$/;"	f	class:tipWidget
+initUI	titlewidget.cpp	/^void TitleWidget::initUI()$/;"	f	class:TitleWidget
+initUILeft	messagecenterwidget.cpp	/^void MessageCenterWidget::initUILeft()$/;"	f	class:MessageCenterWidget
+initUIRight	messagecenterwidget.cpp	/^void MessageCenterWidget::initUIRight()$/;"	f	class:MessageCenterWidget
+isNewInfo	msgwidget.h	/^    bool        isNewInfo;$/;"	m	struct:_MsgNode
+leaveEvent	btnmodel.cpp	/^void BtnModel::leaveEvent(QEvent *)$/;"	f	class:BtnModel
+leaveEvent	buttonlabel.cpp	/^void ButtonLabel::leaveEvent(QEvent *)$/;"	f	class:ButtonLabel
+m_MsgVLayout	msgwidget.h	/^    QVBoxLayout*            m_MsgVLayout;$/;"	m	class:MsgWidget
+m_OASysAction	messagecenterwidget.h	/^    QAction*        m_OASysAction;          \/\/\/ OA系统$/;"	m	class:MessageCenterWidget
+m_bakTimer	adaemon.h	/^    QTimer*             m_bakTimer;         \/\/ 备份定时器$/;"	m	class:Adaemon
+m_centerPoint	adaemon.h	/^    QPoint              m_centerPoint;      \/\/ 记忆消息推送界面的位置$/;"	m	class:Adaemon
+m_centerState	adaemon.h	/^    bool                m_centerState;      \/\/ 消息推送表格状态，显示或隐$/;"	m	class:Adaemon
+m_closeAction	adaemon.h	/^    QAction*            m_closeAction;      \/\/ 退出程序$/;"	m	class:Adaemon
+m_closeBtn	messagecenterwidget.h	/^    BtnModel*       m_closeBtn;             \/\/\/ 关闭$/;"	m	class:MessageCenterWidget
+m_closeBtn	titlewidget.h	/^    BtnModel*       m_closeBtn;$/;"	m	class:TitleWidget
+m_cmd	msgwidget.h	/^    Cmd*                    m_cmd;          \/\/\/ 请求$/;"	m	class:MsgWidget
+m_curPageNum	pagewidget.h	/^    int                 m_curPageNum;   \/\/ >= 0$/;"	m	class:PageWidget
+m_curPageRange	msgwidget.h	/^    int                     m_curPageRange[2];  \/\/\/ 记忆当前页的起止行号$/;"	m	class:MsgWidget
+m_curPageRange	pagewidget.h	/^    int                 m_curPageRange[2];$/;"	m	class:PageWidget
+m_dPos	mainwidget.h	/^    QPoint          m_dPos;$/;"	m	class:mainWidget
+m_dPos	messagecenterwidget.h	/^    QPoint          m_dPos;$/;"	m	class:MessageCenterWidget
+m_dPos	tipwidget.h	/^    QPoint          m_dPos;$/;"	m	class:tipWidget
+m_doc	backupinfo.h	/^    QDomDocument    m_doc;$/;"	m	class:BackupInfo
+m_doc	getmsg.h	/^    QDomDocument        m_doc;$/;"	m	class:GetMsg
+m_file	httpmsg.h	/^    QFile*                  m_file;$/;"	m	class:httpMsg
+m_file	readconf.h	/^    QString     m_file;$/;"	m	class:ReadConf
+m_handleHLayout	messagecenterwidget.h	/^    QHBoxLayout*    m_handleHLayout;        \/\/\/ 操作部分$/;"	m	class:MessageCenterWidget
+m_infoCnt	adaemon.h	/^    int                 m_infoCnt;          \/\/ 新消息个数$/;"	m	class:Adaemon
+m_infoHLayout	messagecenterwidget.h	/^    QHBoxLayout*    m_infoHLayout;          \/\/\/ 信息行$/;"	m	class:MessageCenterWidget
+m_infoLabel	adaemon.h	/^    QLabel*             m_infoLabel;        \/\/ 提示框内容$/;"	m	class:Adaemon
+m_infoTimer	adaemon.h	/^    QTimer*             m_infoTimer;        \/\/ 固定刷新计时器$/;"	m	class:Adaemon
+m_infoWidget	adaemon.h	/^    ShadowWidget*       m_infoWidget;       \/\/ 提示框$/;"	m	class:Adaemon
+m_itemCnt	msgwidget.h	/^    int                     m_itemCnt;      \/\/\/ 有内容表格行数$/;"	m	class:MsgWidget
+m_mainLayout	messagecenterwidget.h	/^    QVBoxLayout*    m_mainLayout;           \/\/\/ 主布局$/;"	m	class:MessageCenterWidget
+m_manager	httpmsg.h	/^    QNetworkAccessManager*  m_manager;$/;"	m	class:httpMsg
+m_manyPageBtn	pagewidget.h	/^    QPushButton*        m_manyPageBtn;$/;"	m	class:PageWidget
+m_mapVec	btnmodel.h	/^    QVector<QPixmap>    m_mapVec;               \/\/ 保存图标$/;"	m	class:BtnModel
+m_maxPageNum	pagewidget.h	/^    int                 m_maxPageNum;$/;"	m	class:PageWidget
+m_maxPageNumLabel	pagewidget.h	/^    QLabel*             m_maxPageNumLabel;$/;"	m	class:PageWidget
+m_model	msgwidget.h	/^    QStandardItemModel*     m_model;$/;"	m	class:MsgWidget
+m_monSysAction	messagecenterwidget.h	/^    QAction*        m_monSysAction;         \/\/\/ 监控系统$/;"	m	class:MessageCenterWidget
+m_mousePress	btnmodel.h	/^    bool                m_mousePress;           \/\/ 按钮左键是否按下$/;"	m	class:BtnModel
+m_mousePress	shadowwidget.h	/^    bool m_mousePress; \/\/按下鼠标左键$/;"	m	class:ShadowWidget
+m_movePoint	shadowwidget.h	/^    QPoint m_movePoint; \/\/移动的距离$/;"	m	class:ShadowWidget
+m_msgCenter	adaemon.h	/^    mainWidget*         m_msgCenter;$/;"	m	class:Adaemon
+m_msgInfoLabel	messagecenterwidget.h	/^    QLabel*         m_msgInfoLabel;         \/\/\/ 消息个数信息$/;"	m	class:MessageCenterWidget
+m_msgText	msgwidget.cpp	/^QString MsgWidget::m_msgText = "X";$/;"	m	class:MsgWidget	file:
+m_msgText	msgwidget.h	/^static QString              m_msgText;      \/\/\/ 消息文本内容$/;"	m	class:MsgWidget
+m_msgView	msgwidget.h	/^    QTableView*             m_msgView;$/;"	m	class:MsgWidget
+m_msgWidget	mainwidget.h	/^    MsgWidget*      m_msgWidget;            \/\/\/ 消息界面$/;"	m	class:mainWidget
+m_msgWidget	messagecenterwidget.h	/^    MsgWidget*      m_msgWidget;            \/\/\/ 消息界面$/;"	m	class:MessageCenterWidget
+m_nextPageBtn	pagewidget.h	/^    QPushButton*        m_nextPageBtn;$/;"	m	class:PageWidget
+m_noReadCheckBox	messagecenterwidget.h	/^    QCheckBox*      m_noReadCheckBox;       \/\/\/ 仅看未读$/;"	m	class:MessageCenterWidget
+m_otherAction	messagecenterwidget.h	/^    QAction*        m_otherAction;          \/\/\/ 其他$/;"	m	class:MessageCenterWidget
+m_page	msgwidget.h	/^    PageWidget*             m_page;         \/\/\/ 页码$/;"	m	class:MsgWidget
+m_pageBtnColor	pagewidget.h	/^    QColor              m_pageBtnColor[2];$/;"	m	class:PageWidget
+m_pageBtnLayout	pagewidget.h	/^    QHBoxLayout*        m_pageBtnLayout;$/;"	m	class:PageWidget
+m_pageLayout	pagewidget.h	/^    QHBoxLayout*        m_pageLayout;$/;"	m	class:PageWidget
+m_pageList	pagewidget.h	/^    QList<QPushButton*> m_pageList;$/;"	m	class:PageWidget
+m_pageMax	msgwidget.h	/^    int                     m_pageMax;      \/\/\/ 最大页码值$/;"	m	class:MsgWidget
+m_pageNum	msgwidget.h	/^    int                     m_pageNum;      \/\/\/ 当前页码,从0起$/;"	m	class:MsgWidget
+m_pageWidget	pagewidget.h	/^    QWidget*            m_pageWidget;$/;"	m	class:PageWidget
+m_parent	pagewidget.h	/^    MsgWidget*          m_parent;$/;"	m	class:PageWidget
+m_preCursor	buttonlabel.h	/^    QCursor m_preCursor;$/;"	m	class:ButtonLabel
+m_preUnderline	buttonlabel.h	/^    bool    m_preUnderline;$/;"	m	class:ButtonLabel
+m_prevPageBtn	pagewidget.h	/^    QPushButton*        m_prevPageBtn;$/;"	m	class:PageWidget
+m_refreshAction	adaemon.h	/^    QAction*            m_refreshAction;    \/\/ 刷新$/;"	m	class:Adaemon
+m_reply	httpmsg.h	/^    QNetworkReply*          m_reply;$/;"	m	class:httpMsg
+m_retMsgCenter	messagecenterwidget.h	/^    ButtonLabel*    m_retMsgCenter;         \/\/\/ 返回消息中心列表$/;"	m	class:MessageCenterWidget
+m_root	backupinfo.h	/^    QDomElement     m_root;$/;"	m	class:BackupInfo
+m_searchAction	mainwidget.h	/^    QAction*        m_searchAction;$/;"	m	class:mainWidget
+m_searchAction	messagecenterwidget.h	/^    QAction*        m_searchAction;         \/\/\/ 搜索事件$/;"	m	class:MessageCenterWidget
+m_searchLE	messagecenterwidget.h	/^    QLineEdit*      m_searchLE;             \/\/\/ 搜索$/;"	m	class:MessageCenterWidget
+m_showAction	adaemon.h	/^    QAction*            m_showAction;       \/\/ 显示主页$/;"	m	class:Adaemon
+m_showVLayout	messagecenterwidget.h	/^    QVBoxLayout*    m_showVLayout;          \/\/\/ 显示结果$/;"	m	class:MessageCenterWidget
+m_sigMaper	pagewidget.h	/^    QSignalMapper*      m_sigMaper;$/;"	m	class:PageWidget
+m_splitter	msgwidget.h	/^    QSplitter*              m_splitter;$/;"	m	class:MsgWidget
+m_status	btnmodel.h	/^    ButtonStatus        m_status;               \/\/ 状态$/;"	m	class:BtnModel
+m_sysMenu	messagecenterwidget.h	/^    QMenu*          m_sysMenu;              \/\/\/ 系统菜单$/;"	m	class:MessageCenterWidget
+m_tipTimer	adaemon.h	/^    QTimer*             m_tipTimer;         \/\/ 提示框计时器$/;"	m	class:Adaemon
+m_tipTitle	adaemon.h	/^    TitleWidget*        m_tipTitle;         \/\/ 提示框头$/;"	m	class:Adaemon
+m_tipWidget	adaemon.h	/^    tipWidget*          m_tipWidget;$/;"	m	class:Adaemon
+m_titleLabel	titlewidget.h	/^    QLabel*         m_titleLabel;$/;"	m	class:TitleWidget
+m_titleWidget	messagecenterwidget.h	/^    TitleWidget*    m_titleWidget;$/;"	m	class:MessageCenterWidget
+m_toBeDoneSysAction	messagecenterwidget.h	/^    QAction*        m_toBeDoneSysAction;    \/\/\/ 待办系统$/;"	m	class:MessageCenterWidget
+m_toolVLayout	messagecenterwidget.h	/^    QVBoxLayout*    m_toolVLayout;          \/\/\/ 工具列$/;"	m	class:MessageCenterWidget
+m_topHLayout	messagecenterwidget.h	/^    QHBoxLayout*    m_topHLayout;           \/\/\/ 界面顶端一行$/;"	m	class:MessageCenterWidget
+m_totalAction	messagecenterwidget.h	/^    QAction*        m_totalAction;          \/\/\/ 全部$/;"	m	class:MessageCenterWidget
+m_transSysAction	messagecenterwidget.h	/^    QAction*        m_transSysAction;       \/\/\/ 运监系统$/;"	m	class:MessageCenterWidget
+m_tray	adaemon.h	/^    QSystemTrayIcon*    m_tray;             \/\/ 右下角菜单$/;"	m	class:Adaemon
+m_underline	buttonlabel.h	/^    bool    m_underline;$/;"	m	class:ButtonLabel
+m_widgetPos	mainwidget.h	/^    QPoint          m_widgetPos;            \/\/\/ 记忆界面的位置$/;"	m	class:mainWidget
+m_widgetPos	messagecenterwidget.h	/^    QPoint          m_widgetPos;            \/\/\/ 记忆界面的位置$/;"	m	class:MessageCenterWidget
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+mainWidget	mainwidget.cpp	/^mainWidget::mainWidget(QPoint pos, QWidget *parent) :$/;"	f	class:mainWidget
+mainWidget	mainwidget.h	/^class mainWidget : public QWidget$/;"	c
+mouseMoveEvent	mainwidget.cpp	/^void mainWidget::mouseMoveEvent(QMouseEvent *event)$/;"	f	class:mainWidget
+mouseMoveEvent	messagecenterwidget.cpp	/^void MessageCenterWidget::mouseMoveEvent(QMouseEvent *event)$/;"	f	class:MessageCenterWidget
+mouseMoveEvent	shadowwidget.cpp	/^void ShadowWidget::mouseMoveEvent(QMouseEvent *event)$/;"	f	class:ShadowWidget
+mouseMoveEvent	tipwidget.cpp	/^void tipWidget::mouseMoveEvent(QMouseEvent *event)$/;"	f	class:tipWidget
+mousePressEvent	btnmodel.cpp	/^void BtnModel::mousePressEvent(QMouseEvent *event)$/;"	f	class:BtnModel
+mousePressEvent	buttonlabel.cpp	/^void ButtonLabel::mousePressEvent(QMouseEvent *)$/;"	f	class:ButtonLabel
+mousePressEvent	mainwidget.cpp	/^void mainWidget::mousePressEvent(QMouseEvent *event)$/;"	f	class:mainWidget
+mousePressEvent	messagecenterwidget.cpp	/^void MessageCenterWidget::mousePressEvent(QMouseEvent *event)$/;"	f	class:MessageCenterWidget
+mousePressEvent	shadowwidget.cpp	/^void ShadowWidget::mousePressEvent(QMouseEvent *event)$/;"	f	class:ShadowWidget
+mousePressEvent	tipwidget.cpp	/^void tipWidget::mousePressEvent(QMouseEvent *event)$/;"	f	class:tipWidget
+mouseReleaseEvent	btnmodel.cpp	/^void BtnModel::mouseReleaseEvent(QMouseEvent *event)$/;"	f	class:BtnModel
+mouseReleaseEvent	buttonlabel.cpp	/^void ButtonLabel::mouseReleaseEvent(QMouseEvent *e)$/;"	f	class:ButtonLabel
+mouseReleaseEvent	shadowwidget.cpp	/^void ShadowWidget::mouseReleaseEvent(QMouseEvent *)$/;"	f	class:ShadowWidget
+msgText	msgwidget.h	/^    QString     msgText;    \/\/\/ 消息内容$/;"	m	struct:_MsgNode
+newInfo	getmsg.cpp	/^void GetMsg::newInfo()$/;"	f	class:GetMsg
+newsType	msgwidget.h	/^    QString     newsType;   \/\/\/ 信息类型对应关系$/;"	m	struct:_MsgNode
+openMsg	msgwidget.cpp	/^void MsgWidget::openMsg(const QModelIndex& index)$/;"	f	class:MsgWidget
+openXml	backupinfo.cpp	/^int BackupInfo::openXml(const QString &filename)$/;"	f	class:BackupInfo
+openXml	getmsg.cpp	/^int GetMsg::openXml(const QString &filename)$/;"	f	class:GetMsg
+paintEvent	btnmodel.cpp	/^void BtnModel::paintEvent(QPaintEvent *)$/;"	f	class:BtnModel
+paintEvent	mainwidget.cpp	/^void mainWidget::paintEvent(QPaintEvent *e)$/;"	f	class:mainWidget
+paintEvent	messagecenterwidget.cpp	/^void MessageCenterWidget::paintEvent(QPaintEvent *e)$/;"	f	class:MessageCenterWidget
+paintEvent	shadowwidget.cpp	/^void ShadowWidget::paintEvent(QPaintEvent *)$/;"	f	class:ShadowWidget
+paintEvent	tipwidget.cpp	/^void tipWidget::paintEvent(QPaintEvent *e)$/;"	f	class:tipWidget
+paintEvent	titlewidget.cpp	/^void TitleWidget::paintEvent(QPaintEvent *)$/;"	f	class:TitleWidget
+parseNode	backupinfo.cpp	/^void BackupInfo::parseNode()$/;"	f	class:BackupInfo
+parseNode	getmsg.cpp	/^void GetMsg::parseNode()$/;"	f	class:GetMsg
+read	msgwidget.h	/^    bool        read;       \/\/\/ 查看标志$/;"	m	struct:_MsgNode
+readFlg	msgwidget.h	/^    bool        readFlg;\/\/\/ 选中仅看未读$/;"	m	struct:_CMD
+readyPages	pagewidget.cpp	/^void PageWidget::readyPages()$/;"	f	class:PageWidget
+refreshInfo	adaemon.cpp	/^void Adaemon::refreshInfo()$/;"	f	class:Adaemon
+removeAllRow	msgwidget.cpp	/^void MsgWidget::removeAllRow()$/;"	f	class:MsgWidget
+rowHeightHide	msgwidget.cpp	/^int MsgWidget::rowHeightHide(QTableView* tableView, const int row)$/;"	f	class:MsgWidget
+rowsShowHeight	msgwidget.cpp	/^int MsgWidget::rowsShowHeight(int curRowNum)$/;"	f	class:MsgWidget
+save	backupinfo.cpp	/^void BackupInfo::save(const QString &filename)$/;"	f	class:BackupInfo
+search	msgwidget.h	/^    QString     search; \/\/\/ 搜索关键词,空为不搜索$/;"	m	struct:_CMD
+sendTime	msgwidget.h	/^    QString     sendTime;   \/\/\/ 发送时间$/;"	m	struct:_MsgNode
+sendType	msgwidget.h	/^    QString     sendType;   \/\/\/ 发送对象对应关系$/;"	m	struct:_MsgNode
+setCmdA	mainwidget.cpp	/^void mainWidget::setCmdA(bool)$/;"	f	class:mainWidget
+setCmdA	messagecenterwidget.cpp	/^void MessageCenterWidget::setCmdA(bool)$/;"	f	class:MessageCenterWidget
+setCmdAll	mainwidget.cpp	/^void mainWidget::setCmdAll(bool)$/;"	f	class:mainWidget
+setCmdAll	messagecenterwidget.cpp	/^void MessageCenterWidget::setCmdAll(bool)$/;"	f	class:MessageCenterWidget
+setCmdB	mainwidget.cpp	/^void mainWidget::setCmdB(bool)$/;"	f	class:mainWidget
+setCmdB	messagecenterwidget.cpp	/^void MessageCenterWidget::setCmdB(bool)$/;"	f	class:MessageCenterWidget
+setCmdC	mainwidget.cpp	/^void mainWidget::setCmdC(bool)$/;"	f	class:mainWidget
+setCmdC	messagecenterwidget.cpp	/^void MessageCenterWidget::setCmdC(bool)$/;"	f	class:MessageCenterWidget
+setCmdD	messagecenterwidget.cpp	/^void MessageCenterWidget::setCmdD(bool)$/;"	f	class:MessageCenterWidget
+setCmdE	messagecenterwidget.cpp	/^void MessageCenterWidget::setCmdE(bool)$/;"	f	class:MessageCenterWidget
+setCmdNoRead	mainwidget.cpp	/^void mainWidget::setCmdNoRead(int state)$/;"	f	class:mainWidget
+setCmdNoRead	messagecenterwidget.cpp	/^void MessageCenterWidget::setCmdNoRead(int state)$/;"	f	class:MessageCenterWidget
+setCmdSearch	mainwidget.cpp	/^void mainWidget::setCmdSearch(bool)$/;"	f	class:mainWidget
+setCmdSearch	messagecenterwidget.cpp	/^void MessageCenterWidget::setCmdSearch(bool)$/;"	f	class:MessageCenterWidget
+setCurPageNum	pagewidget.cpp	/^void PageWidget::setCurPageNum(int num)$/;"	f	class:PageWidget
+setInfoContent	tipwidget.cpp	/^void tipWidget::setInfoContent(const QString &content)$/;"	f	class:tipWidget
+setLabelText	buttonlabel.cpp	/^void ButtonLabel::setLabelText(const QString text)$/;"	f	class:ButtonLabel
+setMaxPageNum	pagewidget.cpp	/^void PageWidget::setMaxPageNum(int num)$/;"	f	class:PageWidget
+setModel	msgwidget.cpp	/^void MsgWidget::setModel(const int num)$/;"	f	class:MsgWidget
+setMouseClicked	buttonlabel.cpp	/^void ButtonLabel::setMouseClicked(bool isClicked)$/;"	f	class:ButtonLabel
+setMsgLayout	msgwidget.cpp	/^void MsgWidget::setMsgLayout()$/;"	f	class:MsgWidget
+setPageMax	msgwidget.cpp	/^void MsgWidget::setPageMax()$/;"	f	class:MsgWidget
+setStartSearch	mainwidget.cpp	/^void mainWidget::setStartSearch()$/;"	f	class:mainWidget
+setStartSearch	messagecenterwidget.cpp	/^void MessageCenterWidget::setStartSearch()$/;"	f	class:MessageCenterWidget
+setTable	msgwidget.cpp	/^void MsgWidget::setTable()$/;"	f	class:MsgWidget
+setTitle	tipwidget.cpp	/^void tipWidget::setTitle(const QString &title)$/;"	f	class:tipWidget
+setTitleText	titlewidget.cpp	/^void TitleWidget::setTitleText(const QString &text, int size)$/;"	f	class:TitleWidget
+setUnderLine	buttonlabel.cpp	/^void ButtonLabel::setUnderLine(bool underline)$/;"	f	class:ButtonLabel
+showMsgCenter	adaemon.cpp	/^void Adaemon::showMsgCenter(bool flg)$/;"	f	class:Adaemon
+showPageMsg	msgwidget.cpp	/^void MsgWidget::showPageMsg(const int pageNum)$/;"	f	class:MsgWidget
+showStartTable	msgwidget.cpp	/^void MsgWidget::showStartTable()$/;"	f	class:MsgWidget
+showTipInfo	adaemon.cpp	/^void Adaemon::showTipInfo()$/;"	f	class:Adaemon
+slotClickedPageBtn	pagewidget.cpp	/^void PageWidget::slotClickedPageBtn(QString num)$/;"	f	class:PageWidget
+slotNextPage	pagewidget.cpp	/^void PageWidget::slotNextPage()$/;"	f	class:PageWidget
+slotPrevPage	pagewidget.cpp	/^void PageWidget::slotPrevPage()$/;"	f	class:PageWidget
+slotSSLErrorDeal	httpmsg.cpp	/^void httpMsg::slotSSLErrorDeal(const QList<QSslError> &errors)$/;"	f	class:httpMsg
+sortMsg	getmsg.cpp	/^void GetMsg::sortMsg()$/;"	f	class:GetMsg
+startDaemon	adaemon.cpp	/^void Adaemon::startDaemon()$/;"	f	class:Adaemon
+startRequest	httpmsg.cpp	/^void httpMsg::startRequest(const QString url, const QString &filename)$/;"	f	class:httpMsg
+timeCnt	msgwidget.h	/^    long        timeCnt;$/;"	m	struct:_MsgNode
+tipWidget	tipwidget.cpp	/^tipWidget::tipWidget(QWidget *parent) :$/;"	f	class:tipWidget
+tipWidget	tipwidget.h	/^class tipWidget : public QWidget$/;"	c
+title	msgwidget.h	/^    QString     title;      \/\/\/ 消息标题$/;"	m	struct:_MsgNode
+trayactivated	adaemon.cpp	/^void Adaemon::trayactivated(QSystemTrayIcon::ActivationReason reason)$/;"	f	class:Adaemon
+type	msgwidget.h	/^    char        type;       \/\/\/ 消息种类$/;"	m	struct:_MsgNode
+ui	mainwidget.h	/^    Ui::mainWidget *ui;$/;"	m	class:mainWidget
+ui	tipwidget.h	/^    Ui::tipWidget *ui;$/;"	m	class:tipWidget
+updatePageWidget	pagewidget.cpp	/^void PageWidget::updatePageWidget()$/;"	f	class:PageWidget
+widgetPos	mainwidget.cpp	/^QPoint mainWidget::widgetPos()$/;"	f	class:mainWidget
+widgetPos	messagecenterwidget.cpp	/^QPoint MessageCenterWidget::widgetPos()$/;"	f	class:MessageCenterWidget
+writeTask	backupinfo.cpp	/^void BackupInfo::writeTask()$/;"	f	class:BackupInfo
+~MessageCenterWidget	messagecenterwidget.cpp	/^MessageCenterWidget::~MessageCenterWidget()$/;"	f	class:MessageCenterWidget
+~PageWidget	pagewidget.cpp	/^PageWidget::~PageWidget()$/;"	f	class:PageWidget
+~TitleWidget	titlewidget.cpp	/^TitleWidget::~TitleWidget()$/;"	f	class:TitleWidget
+~mainWidget	mainwidget.cpp	/^mainWidget::~mainWidget()$/;"	f	class:mainWidget
+~tipWidget	tipwidget.cpp	/^tipWidget::~tipWidget()$/;"	f	class:tipWidget
